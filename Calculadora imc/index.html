@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULADORA IMC</title>
+    <link rel="stylesheet" href="estilo.css"
+  </head>
+  <body>
+    <nav id="topMenu">
+      <ul class="nav_fila">
+        <li>
+          <a href="index.html">Homepage</a>
+        </li>
+        <li>
+          <a href="">Projetos</a>
+        </li>
+        <li> 
+          <a href="contact.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <h1> Cuidando da Saúde!</h1>
+    <p>  O IMC (Índice de Massa Corporal) é um cálculo que ajuda a avaliar<br> se a pessoa está dentro do seu peso ideal.<br>
+    Para uma analise real procure um nutricionista <br>e realize um exame de bioimpedância para saber sua composição corporal. </p>
+    <main>
+      <div class="container">
+        <div class="title">CALCULADORA - IMC</div>
+        <div class="input">
+          <label>Nome:</label>
+          <input type="text" id="nome" />
+        </div>
+        <div class="input">
+          <label>Altura:</label>
+          <input type="text" id="altura" />
+        </div>
+        <div class="input">
+          <label>Peso:</label>
+          <input type="text" id="peso" />
+        </div>
+        <button id="calular">Calcular</button>
+
+        <div class="result" id="resultado"></div>
+      </div>
+    </main>
+    <script src="./imc.js"></script>
+
+    <footer>
+      <h5 class="centralize">@Criado por André M V Silva</h5>
+    </footer>
+  </body>
+</html>
